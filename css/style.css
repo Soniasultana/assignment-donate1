@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    line-height: 0.8s;
+}
+
+/*=======banner part starts here=======*/
+#banner {
+    background-image: linear-gradient(to left, black, transparent), url(../images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+
+}
+
+.banner-text {
+    text-align: center;
+
+}
+
+.banner-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    font-weight: 700px;
+    color: #fff;
+    padding-top: 18%;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+
+}
+
+.banner-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+    color: #fff;
+    letter-spacing: 5px;
+    padding-bottom: 48px;
+
+}
+
+.anchor-button {
+    text-decoration: none;
+    background: tomato;
+    padding: 19px 40px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+
+}
+
+/*=======donate part starts here=======*/
+#donate {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.donate-heading {
+    text-align: center;
+}
+
+.donate-heading h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 700px;
+    color: #222;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+
+}
+
+.donate-heading p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #888;
+    letter-spacing: normal;
+    line-height: 26px;
+
+
+}
+
+.donate-body {
+    display: flex;
+    padding-left: 15%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+}
+
+.donate-amount {
+    text-align: center;
+
+    background-color: rgba(221, 221, 221, 0.479);
+    margin: 10px;
+}
+
+.donate-amount h5 {
+    text-align: center;
+    padding: 40px 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700px;
+    color: #888;
+
+
+
+
+}
+
+.donate-amount :hover {
+    border: 4px solid tomato;
+    border-radius: 3px;
+    color: tomato;
+    background-color: rgba(255, 71, 71, 0.226);
+
+}
+
+.donate-end p {
+    color: #888;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #888;
+}
+
+.donate-end hr {
+    width: 50%;
+    margin: auto;
+
+}
+
+.donate-end .anchor-button {
+    margin-left: 44%;
+    background-color: rgb(255, 71, 95);
+
+}
+
+
+
+/*=======donate-plan part starts here=======*/
+
+#donate-plan {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    width: 1170px;
+}
+
+#donate-plan h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 700px;
+    color: #222;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+#donate-plan p {
+
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    color: #222;
+
+
+}
+
+.donate-card {
+    display: flex;
+
+}
+
+.d-card {
+    width: 370px;
+    padding: 20px;
+    margin-left: 60px;
+    border: 1px solid #e3e3e3;
+    display: block;
+    padding-bottom: -20px;
+    box-shadow: 5px 7px 40px gray;
+
+
+}
+
+.d-img img {
+    width: 10%;
+    padding-bottom: 20px;
+
+
+
+}
+
+.d-text h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 700px;
+    color: #222;
+    padding-bottom: 20px;
+
+
+
+
+
+}
+
+.d-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4px;
+    font-weight: 300px;
+    color: #ddd;
+}
+
+.d-3 {
+    background-color: rgba(0, 0, 255, 0.041);
+}
+
+.d-1 {
+    background-color: rgba(255, 192, 203, 0.171);
+}
+
+.d-2 {
+    background-color: cornsilk;
+}
+
+
+/*=======article part starts here=======*/
+.article {
+    height: 500px;
+    padding-bottom: 100px;
+    padding-top: 150px;
+    display: flex;
+}
+.half-article{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-article h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 700px;
+    color: #222;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.half-article p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    color: #888;
+    padding-bottom: 60px;
+    line-height: 22px;
+    
+}
+
+/*=======update part starts here=======*/
+#update{
+    padding-bottom: 100px;
+}
+#update h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 700px;
+    color: #222;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    text-align: center;
+   
+    
+   
+}
+#update p{
+    color: #888;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    letter-spacing: 6px;
+   
+}
+.form{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 900px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: cornsilk;
+}
+.form-body{
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+.email {
+    padding: 13px 25px;
+    background-color: #888;
+    color: aliceblue;
+    border: none;
+
+}
+.submit{
+    margin-top: 8px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: tomato;
+    margin-left: 25%;
+    
+
+}
+
+/*=======footer part starts here=======*/
+#footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(0, 0, 0);
+}
+#footer h6{
+    color: palevioletred;
+    padding-bottom: 15px;
+    font-weight: 700px;
+    font-size: 30px;
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: center;
+    
+}
+#footer p{
+    color: #fff;
+    
+    font-weight: 400px;
+    font-size: 20px;
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: center;
+    
+}
